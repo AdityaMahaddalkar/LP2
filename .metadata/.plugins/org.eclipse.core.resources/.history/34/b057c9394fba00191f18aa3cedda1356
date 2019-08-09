@@ -1,0 +1,21 @@
+import java.rmi.*;
+
+
+public class SearchQuery implements Search {
+	
+	SearchQuery() throws RemoteException{
+		super();
+	}
+	
+	@Override
+	public String query(String search) throws RemoteException {
+		// TODO Auto-generated method stub
+		String result;
+		if(search.equals("Reflection in Java"))
+			result = "Found";
+		else
+			result = "Not Found";
+		return result;
+	}
+
+}

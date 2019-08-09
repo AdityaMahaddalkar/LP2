@@ -1,0 +1,8 @@
+import java.rmi.*;
+import java.rmi.registry.*;
+
+public class SearchServer {
+	public static void main(String[] args) {
+		
+	}
+}

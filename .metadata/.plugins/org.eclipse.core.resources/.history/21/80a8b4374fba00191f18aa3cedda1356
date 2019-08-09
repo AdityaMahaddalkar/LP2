@@ -1,0 +1,12 @@
+import java.rmi.RemoteException;
+
+
+public class SearchQuery implements Search {
+
+	@Override
+	public String query(String search) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
