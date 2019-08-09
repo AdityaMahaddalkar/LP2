@@ -51,3 +51,10 @@ cm = confusion_matrix(y_test, y_pred).
 '''
 #TODO : https://stackoverflow.com/questions/45466041/how-to-get-the-precision-and-recall-from-a-nltk-classifier
 '''
+
+# LINK: https://stats.stackexchange.com/questions/51296/how-do-you-calculate-precision-and-recall-for-multiclass-classification-using-co
+recall = np.diag(cm) / np.sum(cm, axis = 1)
+precision = np.diag(cm) / np.sum(cm, axis = 0)
+
+print(f'Precision of the model = {precision}')
+print(f'Recall of the model = {recall}')
