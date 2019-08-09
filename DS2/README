@@ -1,0 +1,12 @@
+============ Prerequisites =============
+Check whether you have following commands on your terminal
+
+1. rmic
+2. rmiregistry
+3. pkill
+
+============ Running the project =========
+
+To run the project type the following on your terminal
+
+$ source build.sh

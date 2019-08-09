@@ -15,3 +15,6 @@ echo "== Server started =="
 sleep 1s
 echo "== Starting Client =="
 java ClientRequest
+echo "== Cleanup =="
+pkill rmiregistry
+echo "== Done =="
